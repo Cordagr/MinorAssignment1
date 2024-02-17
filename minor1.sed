@@ -1,4 +1,4 @@
-"EUID: gr0366"
+"EUID: gr0366 Name: Giancarlo Ramirez"
 sed -n -e 's/.*([0-9]+(\.[0-9]+)?).*/\\1/p' | awk '{for(i=1;i<=NF;i++) if($i>15)print $i}' "escaped . by \ becomes literal"
 sed -r -e -i 's/[(|)]// g' phone.txt "command #1"
 sed -i -e 's/[[:space:]]*//g' phone.txt "command #3"
